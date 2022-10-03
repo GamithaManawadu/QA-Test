@@ -1,0 +1,31 @@
+Nandu Gamitha Manawadu
+
+
+1. Equivalence partitions -
+ partition 1 : $0 - $100 => 3% interest
+ partition 2 : $101 - $999 => 5% interest
+ partition 3: balance >= $1000 =>7% interest
+
+   Boundry Values -  $0, $100, $101, $999, $1000
+
+   Positive Test Cases :
+2. Enter positive integer values for both A and B, press the Add button and check result 
+   Press the clear button and check the result
+   Enter 0 for A and positive value for B and check result.
+   Enter 0 for B and positive value for A and check result.
+   Enter negative integer values for both and check result.
+   Enter negative integer value for A and positve integer value for B and check result.
+   Enter negative integer value for B and positive integer value for A and check result.
+   Enter numbers with decimal points(Float/Double) and check the result.
+
+   Negative Test Cases:
+   Enter special character(not a number) for A and a number for B and check the results.
+   Enter special character for B and number for A and check the results.
+   Enter special characters on both and check the results.
+   Enter a number for A and leave B blank and check the result.
+   Enter a number for B and leave A blank and check the result.
+
+4. SELECT name
+   FROM Employee
+   WHERE salary > 2000 AND months < 10
+   ORDER BY employee_id ASC;
